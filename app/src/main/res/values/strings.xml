@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IntralotApp</string>
+    <string name="forks">Forks: </string>
+    <string name="watchers">Watchers: </string>
+    <string name="description_label">Description:</string>
+    <string name="owner">Owner:</string>
+    <string name="license_label">License:</string>
+    <string name="permission_maintain_label">Permission To Maintain:</string>
+    <string name="permission_pull_label">Permission To Pull:</string>
+    <string name="permission_push_label">Permission To Push:</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="standard_8">8dp</dimen>
+    <dimen name="drawable_padding">4dp</dimen>
+    <dimen name="item_title_size">16sp</dimen>
+    <dimen name="item_secondary_size">12sp</dimen>
+    <dimen name="item_secondary_small_size">8sp</dimen>
+    <dimen name="decorator_margin">10dp</dimen>
+    <dimen name="standard_4">4dp</dimen>
+    <dimen name="standard_16">16dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+</resources>

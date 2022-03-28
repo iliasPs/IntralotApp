@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/standard_8"
+    android:background="@color/black_github">
+
+    <TextView
+        android:id="@+id/repo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/app_name"
+        android:textColor="@color/orange_github"
+        android:textFontWeight="700"
+        android:layout_marginStart="@dimen/standard_8"
+        android:textSize="@dimen/item_title_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/standard_8"
+        android:hint="@string/app_name"
+        android:textColor="@color/white"
+        android:textFontWeight="400"
+        android:textSize="@dimen/item_secondary_size"
+        app:layout_constraintBottom_toTopOf="@id/details_linear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repo_name" />
+
+    <LinearLayout
+        android:id="@+id/details_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/owner">
+
+
+        <TextView
+            android:id="@+id/forks_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_8"
+            android:layout_marginTop="@dimen/standard_8"
+            android:text="@string/forks"
+            android:textColor="@color/orange_github"
+            android:textFontWeight="700"
+            android:textSize="@dimen/item_secondary_small_size" />
+
+        <TextView
+            android:id="@+id/forks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_4"
+            android:layout_marginTop="@dimen/standard_8"
+            android:textColor="@color/orange_github"
+            android:textSize="@dimen/item_secondary_small_size" />
+
+        <TextView
+            android:id="@+id/watchers_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_4"
+            android:layout_marginTop="@dimen/standard_8"
+            android:text="@string/watchers"
+            android:textColor="@color/orange_github"
+            android:textFontWeight="700"
+            android:textSize="@dimen/item_secondary_small_size" />
+
+        <TextView
+            android:id="@+id/watchers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_4"
+            android:layout_marginTop="@dimen/standard_8"
+            android:textColor="@color/orange_github"
+            android:textSize="@dimen/item_secondary_small_size" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/decorator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/decorator_margin"
+        android:background="@color/orange_github"
+        app:layout_constraintTop_toBottomOf="@id/details_linear" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
