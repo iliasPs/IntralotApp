@@ -1,4 +1,4 @@
-## Ilias Paraskevopoulos - Intralot Job Candidate submission
+## Ilias Paraskevopoulos submission
 
 This project contains the full implementations of a basic application for the android platform,
 demonstrating basic code designing using the Clean Architecture pattern, which offers an easy way to scale apps.
